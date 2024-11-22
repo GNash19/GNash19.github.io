@@ -33,6 +33,7 @@
 
 html {
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -744,6 +745,19 @@ form label {
 }
 .verse-button:hover {
     background-color: #1976D2;
+}
+
+.footertexts {
+    display: flex;
+    gap: 10px;
+}
+
+.acti a {
+    font-family: "Montserrat", sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--clr-light);
+    margin-right: 10px;
 }
 
 .loading, .error {
